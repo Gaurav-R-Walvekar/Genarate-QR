@@ -57,13 +57,6 @@ function setupEventListeners() {
     downloadPngBtn.addEventListener('click', () => downloadQR('png'));
     downloadJpgBtn.addEventListener('click', () => downloadQR('jpg'));
 
-    // Test button
-    const testBtn = document.getElementById('test-btn');
-    testBtn.addEventListener('click', function() {
-        qrText.value = 'https://example.com';
-        generateQRCode();
-        showSuccess('Test QR code generated! Try scanning it with your mobile camera.');
-    });
 
     // Enter key in textarea
     qrText.addEventListener('keydown', function(e) {

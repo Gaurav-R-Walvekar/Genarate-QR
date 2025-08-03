@@ -5,7 +5,9 @@
   "main": "index.html",
   "scripts": {
     "start": "live-server --port=2025",
-    "dev": "live-server --port=2025 --open=/"
+    "dev": "live-server --port=2025 --open=/",
+    "build": "echo 'Static site - no build needed'",
+    "vercel-build": "echo 'Static site ready for deployment'"
   },
   "dependencies": {
     "qrcode": "^1.5.3"
