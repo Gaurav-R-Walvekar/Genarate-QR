@@ -1,0 +1,19 @@
+{
+  "name": "qr-generator",
+  "version": "1.0.0",
+  "description": "A QR code generator application with download options",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=2025",
+    "dev": "live-server --port=2025 --open=/"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "keywords": ["qr", "generator", "download", "png", "jpg"],
+  "author": "",
+  "license": "MIT"
+} 
